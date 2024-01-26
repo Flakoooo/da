@@ -23,7 +23,7 @@ public class ModBlocks {
     }
 
     public static final Block KUBERNETES_BLOCK = register(
-            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.ANVIL)),
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.ANVIL).strength(4.0f).requiresTool()),
             "kubernetes_block", true);
 
     public static void initialize() {
