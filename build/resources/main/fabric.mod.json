@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "da",
+  "version": "1.0-SNAPSHOT",
+  "name": "da",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/vlaso/da"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/da/icon.jpg",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.example1.da.client.DaClient"
+    ],
+    "main": [
+      "org.example1.da.Da"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.6",
+    "fabric": "*",
+    "minecraft": "1.20.4"
+  }
+}
