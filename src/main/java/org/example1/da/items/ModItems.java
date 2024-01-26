@@ -1,4 +1,4 @@
-package org.example1.da;
+package org.example1.da.items;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -19,8 +19,7 @@ public class ModItems {
     );
 
     public static void initialize() {
-        ItemGroupEvents
-                .modifyEntriesEvent(ItemGroups.INGREDIENTS)
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS)
                 .register((itemGroup) -> itemGroup.add(ModItems.KUBERNETES));
     }
 }
